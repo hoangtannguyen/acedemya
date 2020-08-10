@@ -1,382 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <div class="brand-logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <ul id="list-menu">
+                    <li>
+                        <a href="javascript:;">Home</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">About</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Contact</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Blog</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Careers</a>
+                    </li>
+                </ul>
+                <div class="invite">
+                    <button class="button button-accent">Request Invite</button>
+                </div>
 
-<!-- <section class="hero">
-     <div>SPEND $99 AND GET FREE SHIPPING AUSTRALIA WIDE</div>
-</section> -->
-<section  class="navs"  style="overflow: hidden;">
-<nav>
-     <div class="header-top">
-          <div>
-               <a href="">
-                    <i class="fas fa-map-marker-alt"></i> STORES
-               </a>
-          </div>
-          <div class="logo">
-               ACADEMY BRAND
-          </div>
-          <div class="nav-font">
-               <span><a href=""><i class="fas fa-search"></i></a></span>
-               <span> <a href="">LOGIN</a> </span>
-               <span><a href=""><i class="fas fa-shopping-bag"></i></a> </span>
-          </div>
-     </div>
+                <div class="hamburger-wrapper">
+                    <img src="./images/icon-hamburger.svg" id="myImage"/>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="image-wrapper">
+            <div class="bg1-container">
+                <img class="bg1" src="images/bg-intro-desktop.svg" alt="">
+            </div>
+
+            <img class="upper-img" src="images/image-mockups.png" alt="">
+        </div>
+
+        <div class="banner-info">
+            <div class="container">
+                <div class="banner-info-container">
+                    <h1 class="banner-title">Next generation digital banking</h1>
+
+                    <span class="banner-subtitle">Lorem ipsum isi eaque? Maiores aut ab pariatur consequuntur voluptatem
+                        suscipit et odio
+                        accusamus eaque aliquid, obcaecati illo facere quibusdam?</span>
+
+                    <div class="invite">
+                        <button class="button button-accent">Request Invite</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="landing-page-section">
    
-</nav>
-</section>
+            <h4 class="section-title">Why choose Easybank?</h4>
 
-
-
-<header  style="overflow: hidden;" >
-     <ul>
-          <li><a href="">MENS</a></li>
-          <li><a href="">KIDS</a></li>
-          <li><a href="">REWARDS</a></li>
-          <li><a href="">GIFT CARD</a></li>
-          <li><a href="">SALE</a></li>
-     </ul>
-</header>
-
-
-<section class="nav-media"  style="overflow: hidden;" >
-<nav class="nav-media-fixed">
-     <div class="header-top-media">
-          <div>
-               <a href="">
-                    <i class="fas fa-bars"></i>
-               </a>
-          </div>
-          <div class="logo-media">
-               ACADEMY BRAND
-          </div>
-          <div class="nav-font">
-               <span><a href=""><i class="fas fa-search"></i></a></span>
-               <span><a href=""><i class="fas fa-shopping-bag"></i></a> </span>
-          </div>
-     </div>
-</nav>
-</section>
-
-
-
-<section  style="overflow: hidden;" >
-     <div class="brand">
-          <div class="brand-two">
-               <h3>W E ' R E R E - O P E N I N G !</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <span>CLICK HERE</span>
-               
-          </div>
-          <div class="brand-two">           
-               <h3>W E ' R E R E - O P E N I N G !</h3>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-               <span>CLICK HERE</span>
-          </div>   
-     </div>
-</section>
-
-<section  style="overflow: hidden;"  >
-     <div class="brand-image">
-          <div class="brand-container" id="center-font">
-
-               <img src="images/ns.jpg" alt="">
-               <div class="brand-image-fonts">
-                    <p>25% OFF <br> NEW ADDTION</p>
-                    <button>SHOP NOW</button>
-               </div>
-          </div>
-          <div class="brand-container" id="brand-image-none">
-               <img src="images/jacket.jpg" alt="">
-                   <!-- <div class="brand-image-font">
-                    <p>25% OFF <br> NEW ADDTION</p>
-                    <button>SHOP NOW</button>
-               </div> -->
-          </div>
-     </div>
-</section>
-
-
-
-
-<section  style="overflow: hidden;" >
-     <div class="center-image">
-          <div class="center-image-one" id="center-font">
-               <img src="images/center.jpg" alt="">
-                <div class="brand-image-font">
-                    <p>PANTS <br> 2 FOR $ 150</p>
-                    <button id="button-white"> SHOP NOW</button>
-               </div> 
-          </div>
-     </div>
-</section>
-
-<section  style="overflow: hidden;" >
-     <div class="near-two">
-          <div class="near-two-image">
-               <img src="images/ns.jpg" alt="">
-          </div>
-          <div class="near-two-image">
-               <img src="images/thun.jpg" alt="" >
-          </div>
-     </div>
-</section> 
-
-
-
-<section  style="overflow: hidden;" >
-
-     <div class="for-near-font">
-          BETSSELING
-     </div>
-
-<div >
-     <div class="for-image">
-          <div>
-               <div class="langding-for-image">
-               <img src="images/ao.jpg" alt="">
-                </div>     
-               <div class="descriton">
-                         Academy Merino sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss 
-               </div>
-                    <div class="title">
-                         Grey
+            <span class="section-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.
+            </span>
+            <div class="latest-article-list">
+                <div class="feature">
+                    <div class="icon-circle">
+                        <img src="images/icon-onboarding.svg" alt="">
                     </div>
-                    <div class="money-for">
-                         <div class="money">$13.7</div>
-                         <div class="money-shale">25% OFF</div>
-                    </div>        
-          </div>
-          <div>
-               <div class="langding-for-image">
-               <img src="images/ao.jpg" alt="">
-                </div>     
-               <div class="descriton">
-                         Academy Merino Crew
+
+                    <h6 class="feature__title">Online Banking</h6>
+
+                    <span class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        porro cumque unde alias earum?
+                        Doloribus necessitatibus ab facilis optio id quam ipsa earum error asperiores nam velit,
+                        provident
+                        culpa
+                        inventore?</span>
+                </div>
+                <div class="feature">
+                    <div class="icon-circle">
+                        <img src="images/icon-onboarding.svg" alt="">
                     </div>
-                    <div class="title">
-                         Grey
+
+                    <h6 class="feature__title">Online Banking</h6>
+
+                    <span class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        porro cumque unde alias earum?
+                        Doloribus necessitatibus ab facilis optio id quam ipsa earum error asperiores nam velit,
+                        provident
+                        culpa
+                        inventore?</span>
+                        <h6 class="feature__title">Online Banking</h6>
+                </div>
+                <div class="feature">
+                    <div class="icon-circle">
+                        <img src="images/icon-onboarding.svg" alt="">
                     </div>
-                    <div class="money-for">
-                         <div class="money">$13.7</div>
-                         <div class="money-shale">25% OFF</div>
-                    </div>        
-          </div>
-          <div>
-               <div class="langding-for-image">
-               <img src="images/ao.jpg" alt="">
-                </div>     
-               <div class="descriton">
-                         Academy Merino Crew
+
+                    <h6 class="feature__title">Online Banking</h6>
+
+                    <span class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        porro cumque unde alias earum?
+                        Doloribus necessitatibus ab facilis optio id quam ipsa earum error asperiores nam velit,
+                        provident
+                        culpa
+                        inventore?</span>
+                </div>
+                <div class="feature">
+                    <div class="icon-circle">
+                        <img src="images/icon-onboarding.svg" alt="">
                     </div>
-                    <div class="title">
-                         Grey
+
+                    <h6 class="feature__title">Online Banking</h6>
+
+                    <span class="feature__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        porro cumque unde alias earum?
+                        Doloribus necessitatibus ab facilis optio id quam ipsa earum error asperiores nam velit,
+                        provident
+                        culpa
+                        inventore?</span>
+                </div>
+            </div>
+        
+    </section>
+
+    ssss
+<div>213123213</div>
+
+
+    <section class="landing-page-section bg-medium">
+        <div class="container">
+            <h4 class="section-title">Latest Articles</h4>
+
+            <div class="latest-article-list">
+                <div>
+                    <div class="latest-article">
+                        <div class="image-wrapper">
+                            <img src="images/image-currency.jpg" alt="">
+                        </div>
+
+                        <div class="latest-article__content">
+                            <span class="latest-article__author">By Gary Simon</span>
+
+                            <h6 class="latest-article__title">Receive money in any currency with no fees</h6>
+
+                            <span class="latest-article__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Consequuntur quos aliquam odio quibusdam molestiae incidunt similique excepturi
+                                laudantium,
+                                corrupti
+                                voluptate nam perferendis nulla necessitatibus vero aut ab eius. Repellat,
+                                excepturi.</span>
+                        </div>
                     </div>
-                    <div class="money-for">
-                         <div class="money">$13.7</div>
-                         <div class="money-shale">25% OFF</div>
-                    </div>        
-          </div>
-          <div>
-               <div class="langding-for-image">
-               <img src="images/ao.jpg" alt="">
-                </div>     
-               <div class="descriton">
-                         Academy Merino Crew
+                </div>
+                <div>
+                    <div class="latest-article">
+                        <div class="image-wrapper">
+                            <img src="images/image-currency.jpg" alt="">
+                        </div>
+
+                        <div class="latest-article__content">
+                            <span class="latest-article__author">By Gary Simon</span>
+
+                            <h6 class="latest-article__title">Receive money in any currency with no fees</h6>
+
+                            <span class="latest-article__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Consequuntur quos aliquam odio quibusdam molestiae incidunt similique excepturi
+                                laudantium,
+                                corrupti
+                                voluptate nam perferendis nulla necessitatibus vero aut ab eius. Repellat,
+                                excepturi.</span>
+                        </div>
                     </div>
-                    <div class="title">
-                         Grey
+                </div>
+                <div>
+                    <div class="latest-article">
+                        <div class="image-wrapper">
+                            <img src="images/image-currency.jpg" alt="">
+                        </div>
+
+                        <div class="latest-article__content">
+                            <span class="latest-article__author">By Gary Simon</span>
+
+                            <h6 class="latest-article__title">Receive money in any currency with no fees</h6>
+
+                            <span class="latest-article__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Consequuntur quos aliquam odio quibusdam molestiae incidunt similique excepturi
+                                laudantium,
+                                corrupti
+                                voluptate nam perferendis nulla necessitatibus vero aut ab eius. Repellat,
+                                excepturi.</span>
+                        </div>
                     </div>
-                    <div class="money-for">
-                         <div class="money">$13.7</div>
-                         <div class="money-shale">25% OFF</div>
-                    </div>        
-          </div>
-          <div>
-               <div class="langding-for-image">
-               <img src="images/ao.jpg" alt="">
-                </div>     
-               <div class="descriton">
-                         Academy Merino Crew
+                </div>
+                <div>
+                    <div class="latest-article">
+                        <div class="image-wrapper">
+                            <img src="images/image-currency.jpg" alt="">
+                        </div>
+
+                        <div class="latest-article__content">
+                            <span class="latest-article__author">By Gary Simon</span>
+
+                            <h6 class="latest-article__title">Receive money in any currency with no fees</h6>
+
+                            <span class="latest-article__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.
+                                Consequuntur quos aliquam odio quibusdam molestiae incidunt similique excepturi
+                                laudantium,
+                                corrupti
+                                voluptate nam perferendis nulla necessitatibus vero aut ab eius. Repellat,
+                                excepturi.</span>
+                        </div>
                     </div>
-                    <div class="title">
-                         Grey
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- <footer>
+        <div class="container">
+            <div class="footer-left">
+                <div class="logo-icon">
+                    <img src="./images/footer/logo.svg" alt="">
+                    <div class="icon-group">
+                        <div class="icon-item" id="icon-item-facebook">
+                        </div>
+                        <div class="icon-item" id="icon-item-youtube">
+                        </div>
+                        <div class="icon-item" id="icon-item-twitter">
+                        </div>
+                        <div class="icon-item" id="icon-item-pinterest">
+                        </div>
+                        <div class="icon-item" id="icon-item-instagram">
+                        </div>
                     </div>
-                    <div class="money-for">
-                         <div class="money">$13.7</div>
-                         <div class="money-shale">25% OFF</div>
-                    </div>        
-          </div>
-     </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-item">About Us</div>
+                    <div class="contact-item">Contact</div>
+                    <div class="contact-item">Blog</div>
+                </div>
+                <div class="contact">
+                    <div class="contact-item">Careers</div>
+                    <div class="contact-item">Support</div>
+                    <div class="contact-item">Privacy Policy</div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="invite">
+                    <button class="button button-accent">Request Invite</button>
+                </div>
+                <span>&copy; Easybank. All Rights Reserved</span>
+            </div>
+        </div>
+    </footer> -->
 
-</div>
-</section>
-
-
-
-<section  style="overflow: hidden;" >
-     <div class="near-there-image">
-          <div class="near-there" id="center-font">
-               <img src="images/ao.jpg" alt="">
-               <div class="there-font">
-                    <p>AW20 <br> KNITS</p>
-                    <button>SHOP NOW</button>
-               </div>
-          </div>
-          <div class="near-there" id="center-font">
-               <img src="images/thun.jpg" alt="">
-               <div class="there-font">
-                    <p>AW20 <br> KNITS</p>
-                    <button>SHOP NOW</button>
-               </div>
-          </div>
-          <div class="near-there" id="center-font">
-               <img src="images/ns.jpg" alt="">
-               <div class="there-font">
-                    <p>AW20 <br> KNITS</p>
-                    <button>SHOP NOW</button>
-               </div>
-          </div>
-     </div>
-</section>
-
-
-
-
-<section  style="overflow: hidden;" >
-     <div class="two-image-bottom">
-          <div class="image-bottom" id="center-font">
-               <img src="images/ao.jpg" alt="">
-          <div class="two-bottom">
-               <p>UP TO <br> <span>70% OFF </span> <br> SHALE</p>
-               <button type="submit"> SHOP NOW</button>
-          </div>
-          </div>
-          <div class="image-bottom"  id="center-font">
-               <img src="images/thun.jpg" alt="">
-               <div class="two-bottom">
-                    <p>UP TO <br> <span>70% OFF </span> <br> SHALE</p>
-                    <button type="submit"> SHOP NOW</button>
-               </div>
-          </div>
-     </div>
-     
-</section> 
-
-<section class="five-font-all"   style="overflow: hidden;" >
-     <div class="five-font">
-          @academybrand on Instagram
-     </div>
-     <div class="bottom-five">
-          <div class="bottom-five-image">
-               <img src="images/ns.jpg" alt="">
-          </div>
-          <div class="bottom-five-image">
-               <img src="images/ns.jpg" alt="">
-          </div>
-          <div class="bottom-five-image">
-               <img src="images/ns.jpg" alt="">
-          </div>
-          <div class="bottom-five-image">
-               <img src="images/ns.jpg" alt="">
-          </div>
-     </div>
-     <div class="boottom-five-button">
-          <button id="five-button" type="submit">SHOP INSTAGRAM</button>
-     </div>
-</section>
-
-<hr>
-
-<footer  style="overflow: hidden;" >
-     <div class="container">
-          <div class="footer-right">
-               <div>
-                    <div class="footer-font">SHOP</div>
-                    <div>Mens</div>
-                    <div>Academy Rookie</div>
-                    <div>Academy Boys</div>
-                    <div>Size Guide</div>
-                    <div>Gift Card</div>
-               </div>
-               <div>
-                    <div class="footer-font">DISCOVERY</div>
-                    <div>Mens</div>
-                    <div>Academy Rookie</div>
-                    <div>Academy Boys</div>
-                    <div>Size Guide</div>
-                    <div>Gift Card</div>
-                    <div>Online Promotions</div>
-                    <div>Academy Loyalty Program</div>
-                    <div>Legal</div>
-               </div>
-               <div>
-                    <div class="footer-font">HELP</div>
-                    <div>Mens</div>
-                    <div>Academy Rookie</div>
-               </div>
-
- 
-
-          </div>
-
-          <div class="footer-left">
-               <div>
-                    <div class="left-font">Spend & Earn Rewards</div>
-                    <p>Join Academy Rewards to receive a $10 Welcome reward and earn as you spend.</p>
-                    <button type="submit" id="footer-button"> JOIN NOW</button>
-               </div>
-               <div class="footer-icons">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-               </div>
-               
-          </div>
-     </div>
-     <div class="footer-brand">
-          ©2018 Academy Brand 
-     </div>
-    
-</footer>
-<style>
-     
-header.fixed
-    { position: fixed;
-     top:0;}
-</style>
-<script>
-     
-  var header_top = jQuery("header").offset().top;
-jQuery(document).scroll(function() {
-  var height_top = jQuery(document).scrollTop();
-  if(height_top > header_top)
-  {
-       if(!jQuery("header").hasClass("fixed"))
-       {
-            jQuery("header").addClass("fixed");
-       }
-       
-  }
-  else
-  {
-        jQuery("header").removeClass("fixed");
-  }
-});
-</script>
-
-
-
-
-   
 </body>
+    <script src="./script.js"></script>
 </html>
